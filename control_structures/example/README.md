@@ -1,7 +1,7 @@
 # Example
-Open a terminal and navigate to this directory, if you are not running a php server
-like xampp, you can use the builtin php server.  To use the builtin php server, do the following:
-* in the directory type
+If you are not running a php server like xampp, you can use the builtin php server.  To use the builtin php server, do the following:
+* Open a terminal and navigate to this directory
+* In this directory type
 ```bash
 php -S localhost:8888
 ```
