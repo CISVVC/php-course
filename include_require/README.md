@@ -14,8 +14,8 @@ $fruit = 'apple';
 
 ?>
 
-// test.php
-// The following is a php file test.php
+// index.php
+// The following is a php file index.php
 // ----------
 <?php
 
