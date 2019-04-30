@@ -31,7 +31,7 @@ echo "A $color $fruit"; // A green apple
 ### include in functions
 If the include occurs inside a function within the calling file, 
 then all of the code contained in the called file will behave as though it had been defined inside that function. So, it will follow the variable scope of that function. An exception to this rule are 
-[magic constants][https://www.php.net/manual/en/language.constants.predefined.php] which are evaluated by the parser before the include occurs.
+[magic constants](https://www.php.net/manual/en/language.constants.predefined.php) which are evaluated by the parser before the include occurs.
 
 ### Example #2 Including within functions
 ```php
