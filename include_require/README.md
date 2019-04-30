@@ -19,7 +19,7 @@ $fruit = 'apple';
 // ----------
 <?php
 
-echo "A $color $fruit"; // A
+echo "A $color $fruit"; // these variables have not been defined.
 
 include 'vars.php';  // this includes the vars.php file, it is in the same directory/folder
 
@@ -29,7 +29,8 @@ echo "A $color $fruit"; // A green apple
 ```
 
 ### include in functions
-If the include occurs inside a function within the calling file, then all of the code contained in the called file will behave as though it had been defined inside that function. So, it will follow the variable scope of that function. An exception to this rule are [https://www.php.net/manual/en/language.constants.predefined.php](magic constants) which are evaluated by the parser before the include occurs.
+If the include occurs inside a function within the calling file, 
+then all of the code contained in the called file will behave as though it had been defined inside that function. So, it will follow the variable scope of that function. An exception to this rule are (https://www.php.net/manual/en/language.constants.predefined.php)[magic constants] which are evaluated by the parser before the include occurs.
 
 ### Example #2 Including within functions
 ```php
